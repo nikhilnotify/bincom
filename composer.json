@@ -1,0 +1,20 @@
+{
+    "name": "nick/bincom",
+    "description": "binary composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nikhil tiwari",
+            "email": "nikhil.t@notifyvisitors.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BinCom\\": "./src"
+        }
+    },
+    "bin": [
+        "./bin/test"
+    ]
+}
